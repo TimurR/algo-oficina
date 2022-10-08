@@ -1,3 +1,4 @@
+//O(n) time | O(n) space
 export function twoNumberSum(array, targerSum) {
   const nums = {};
   let result = [];
@@ -13,6 +14,7 @@ export function twoNumberSum(array, targerSum) {
   return result;
 }
 
+//O(nlog(n)) time | O(1) space
 export function twoNumberSumP(array, targetSum) {
   const sortedArr = array.sort();
   let left = 0;
