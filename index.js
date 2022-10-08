@@ -1,6 +1,3 @@
-// Import stylesheets
-import './style.css';
+import { twoNumberSum } from './twoNumberSum';
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+console.log(twoNumberSum([1, 2, 4, 7, 9, 5, 8, -8], 0));
